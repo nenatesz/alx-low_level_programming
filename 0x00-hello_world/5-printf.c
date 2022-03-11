@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * main - print a word to the standard output
- * Return 0 if sucess, else return non-zero 
+ * main - prints the phrase "Programming is like building a multilingual puzzle
+ * Return: 0 if sucess, else return non-zero
 */
 int main(void)
 {
