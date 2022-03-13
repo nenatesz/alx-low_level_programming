@@ -11,9 +11,11 @@ int main(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(tolower(ch));
-		putchar(toupper(ch));
-
 	}
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(toupper(ch));
+	}							        
 	putchar('\n');
 	return (0);
 }
