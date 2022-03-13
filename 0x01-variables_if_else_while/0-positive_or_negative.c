@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>i
+#include <time.h>
 /**
  * main - complete the code using an if statement
  * Return: 0 if exited properly
