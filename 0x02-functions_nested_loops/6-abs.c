@@ -5,6 +5,7 @@
  * _abs - entry point
  * @n: parameter
  *
+ * Return: 0 if successful
 */
 int _abs(int n)
 {
