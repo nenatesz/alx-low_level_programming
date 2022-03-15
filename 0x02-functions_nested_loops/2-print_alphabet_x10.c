@@ -1,16 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry point
- * Return: 0 if successful
-*/
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
-}
-
-/**
  * print_alphabet_x10 - entry point
 */
 void print_alphabet_x10(void)
