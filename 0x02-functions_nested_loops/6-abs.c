@@ -9,9 +9,7 @@
 */
 int _abs(int n)
 {
-	int r;
 
-	r = abs(n);
-	printf("%d", r);
-	return (0);
+	printf("%d", abs(n));
+	return (abs(n));
 }
