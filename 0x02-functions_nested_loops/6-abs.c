@@ -12,6 +12,6 @@ int _abs(int n)
 	int r;
 
 	r = abs(n);
-	print(r);
+	printf(r);
 	return (0);
 }
