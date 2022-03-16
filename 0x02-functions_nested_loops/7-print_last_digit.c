@@ -17,7 +17,7 @@ int print_last_digit(int n)
 	}
 	else if ((n / 100) >= 1)
 	{
-		return (abs(n % 1000));
+		return (abs(n % 10));
 	}
 	return (0);
 }
