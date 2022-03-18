@@ -3,13 +3,18 @@
  * print_numbers - prints from 0 to 9
  * Return: void
 */
-void print_numbers(void)
+void print_most_numbers(void)
 {
-		int i;
+	char n = 0;
 
-		for (i = '0'; i <= '9'; i++)
+	while (n <= 9)
+	{
+		if (n != 2 && n != 4)
 		{
-			_putchar (i);
+			_putchar('0' + n);
 		}
-		_putchar('\n');
+		n++;
+	}
+	_putchar('\n');
+
 }
