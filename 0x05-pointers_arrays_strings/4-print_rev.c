@@ -2,7 +2,7 @@
 #include <string.h>
 #include "main.h"
 /**
- * _puts - prints a string to stdout
+ * print_rev - prints the reverse string to stdout
  *  @str: pointer to the string to print
 */
 void print_rev(char *str)
