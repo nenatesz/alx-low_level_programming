@@ -5,7 +5,7 @@
  * _puts - prints a string to stdout
  *  @str: pointer to the string to print
 */
-void _print_rev(char *str)
+void print_rev(char *str)
 {
 	int i;
 
